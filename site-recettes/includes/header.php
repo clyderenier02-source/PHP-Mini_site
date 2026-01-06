@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="<?= $page ?? "" ?>">
     <header>
         <?php require_once "includes/menu.php"; ?>
     </header>

@@ -6,11 +6,13 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #F9F5EB;
 }
 
 nav {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
     margin-bottom: 1.5rem;
+    background-color: white;
 }
 ul {
     display: flex;
@@ -64,4 +66,28 @@ a:hover {
     height: 350px;
     object-fit: cover;
     border-radius: 3px;
+}
+
+.recettes .accueil_card_recette {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10rem;
+}
+
+.recettes .accueil_card_recette_sub {
+    display: flex;
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.recettes .accueil_card_recette_description {
+    padding: 2rem 0 0 1rem;
+}
+
+.recettes .accueil_card_recette_description h2 {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
