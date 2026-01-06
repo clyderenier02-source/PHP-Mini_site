@@ -1,6 +1,5 @@
 <?php
 require_once "includes/header.php";
-require_once "data/recettes.php"; 
 ?>
 
 <section class="accueil">
@@ -17,6 +16,5 @@ require_once "data/recettes.php";
         <?php include "recettes.php"; ?>
     </div>
 </section>
-
 <?php
 require_once "includes/footer.php";

@@ -1,6 +1,6 @@
 </main>
 <footer>
-    <p>Mini Site de recettes 2026</p>
+    <p>2026 Les Délices Maison. Tous droits réservés.</p>
 </footer>
 </body>
 </html>

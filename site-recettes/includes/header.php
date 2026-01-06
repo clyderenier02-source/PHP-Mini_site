@@ -8,6 +8,6 @@
 </head>
 <body class="<?= $page ?? "" ?>">
     <header>
-        <?php require_once "includes/menu.php"; ?>
+        <?php require_once "menu.php"; ?>
     </header>
     <main>
